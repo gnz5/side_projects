@@ -1,0 +1,29 @@
+indefinitely iterate over new submissions with:
+
+for submission in subreddit.stream.submissions():
+		do something
+
+misc code
+	print(reddit.user.me())
+	print(subreddit.display_name)
+	print(subreddit.title)
+	print('score = ', submission.score)
+	print('id = ', submission.id)
+
+	submission.reply(reply_text)
+	if question_phrase in normalized_title:
+	
+	try:
+		print('title = ', submission.title)
+		except UnicodeEncodeError:
+	print('error printing comments')
+	
+	if(i > 10):
+		break
+	try:
+		print(top_level_comment.body)
+		except UnicodeEncodeError:
+		print('error printing comments')
+	except AttributeError: 
+		print('error printing comments')
+	i += 1
